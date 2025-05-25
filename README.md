@@ -16,7 +16,7 @@ AI Generator Postów Social Media to prosta aplikacja webowa wspierająca tworze
 
 🔐 Bezpieczne użycie klucza API (dotenv + sekrety środowiskowe)
 
-
+-------------
 🧪 Zastosowane technologie:
 
 Python 3.8+
