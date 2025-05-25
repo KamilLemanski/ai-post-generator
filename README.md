@@ -50,18 +50,13 @@ ai-post-generator/
 ------------
 ⚙️ Instalacja i uruchomienie aplikacji lokalnie:
 
-git clone https://github.com/twoj-login/ai-post-generator.git
-cd ai-post-generator
+1. git clone https://github.com/twoj-login/ai-post-generator.git
 
-# Zainstaluj zależności
-pip install -r requirements.txt
+2. Zainstaluj zależności: pip install -r requirements.txt
 
-# Stwórz plik .env i wklej swój klucz OpenAI
-cp .env.example .env
-nano .env  # lub dowolny edytor
+3. Stwórz plik .env i wklej swój klucz OpenAI: .env.example
 
-# Uruchom aplikację
-python main.py
+4. Uruchom aplikację: python main.py
 
 ------------
 🔐 Zmienne środowiskowe:
