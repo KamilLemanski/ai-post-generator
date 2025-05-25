@@ -68,6 +68,7 @@ ai-post-generator/
 🔐 Zmienne środowiskowe:
 
 Ustaw zmienną środowiskową OPENAI_API_KEY w pliku .env:
+
 OPENAI_API_KEY=sk-...twój-klucz...
 
 ------------
@@ -99,6 +100,7 @@ OPENAI_API_KEY=sk-...twój-klucz...
 
 © 2025 Kamil Lemański. Projekt edukacyjny i demonstracyjny.
 
+------------
 🙏 Credits:
 
 OpenAI (GPT-4, DALL·E 3), 
