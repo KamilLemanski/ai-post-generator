@@ -121,4 +121,5 @@ oraz kluczu API OpenAI, który nie jest przechowywany w repozytorium kodu.
     obraz = gr.Image(label="Wygenerowana grafika")
     gr.Button("Wygeneruj grafikę do postu").click(fn=generuj_grafike, outputs=obraz)
 
-demo.launch()
+import os
+demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
