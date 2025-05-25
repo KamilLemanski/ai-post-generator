@@ -18,14 +18,22 @@ AI Generator Postów Social Media to prosta aplikacja webowa wspierająca tworze
 
 
 🧪 Zastosowane technologie:
+
 Python 3.8+
+
 Gradio
+
 OpenAI GPT-4
+
 OpenAI DALL·E 3
+
 python-dotenv
+
 Render.com
 
+
 👉 Uruchomienie aplikacji online:
+
 https://ai-post-generator-klemanski.onrender.com
 
 📂 Folder structure:
