@@ -5,11 +5,17 @@ Live App ➤ https://ai-post-generator-klemanski.onrender.com
 AI Generator Postów Social Media to prosta aplikacja webowa wspierająca tworzenie profesjonalnych postów na platformy społecznościowe (LinkedIn, Facebook, Instagram, X/Twitter). Dzięki wykorzystaniu modeli GPT-4 i DALL·E 3, generuje zarówno treść, jak i grafikę posta w jednym procesie.
 
 ✨ Właściwości:
+
 ✅ Generowanie tekstów w różnych stylach i językach
+
 🎯 Dostosowanie do platformy, celu i długości posta
+
 🎨 Tworzenie wysokiej jakości grafik z DALL·E 3
+
 🔁 Możliwość iteracyjnego ulepszania postu i grafiki
+
 🔐 Bezpieczne użycie klucza API (dotenv + sekrety środowiskowe)
+
 
 🧪 Zastosowane technologie:
 Python 3.8+
