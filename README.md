@@ -1,38 +1,70 @@
-📱 AI Generator Postów Social Media"
+📱 AI Generator Postów Social Media
 
-Aplikacja do automatycznego tworzenia i ulepszania profesjonalnych postów na platformy społecznościowe: LinkedIn, Facebook, Instagram i X (Twitter). Dzięki wykorzystaniu sztucznej inteligencji (GPT-4 oraz DALL·E 3), narzędzie generuje dopasowane treści oraz grafiki do każdego posta.
+Live App ➤ https://ai-post-generator-klemanski.onrender.com
 
-Co potrafi ta aplikacja?
-✍️ Generuje profesjonalne posty w różnych stylach i długościach.
-🎯 Dopasowuje treść do celu komunikacyjnego: edukacja, storytelling, promocja, zaufanie.
-📸 Tworzy ilustracje pasujące do tematu i stylu posta.
-🔁 Pozwala poprawiać treść posta zgodnie z instrukcją użytkownika.
+AI Generator Postów Social Media to prosta aplikacja webowa wspierająca tworzenie profesjonalnych postów na platformy społecznościowe (LinkedIn, Facebook, Instagram, X/Twitter). Dzięki wykorzystaniu modeli GPT-4 i DALL·E 3, generuje zarówno treść, jak i grafikę posta w jednym procesie.
 
-📦 Wymagania
+✨ Właściwości:
+✅ Generowanie tekstów w różnych stylach i językach
+🎯 Dostosowanie do platformy, celu i długości posta
+🎨 Tworzenie wysokiej jakości grafik z DALL·E 3
+🔁 Możliwość iteracyjnego ulepszania postu i grafiki
+🔐 Bezpieczne użycie klucza API (dotenv + sekrety środowiskowe)
+
+🧪 Zastosowane technologie:
 Python 3.8+
-Klucz API do OpenAI
+Gradio
+OpenAI GPT-4
+OpenAI DALL·E 3
+python-dotenv
+Render.com
 
-🛠️ Instalacja
-Sklonuj repozytorium:
-git clone https://github.com/twoj-user/ai-post-generator.git
+👉 Uruchomienie aplikacji online:
+https://ai-post-generator-klemanski.onrender.com
+
+📂 Folder structure:
+ai-post-generator/
+├── main.py              # Główna logika aplikacji
+├── requirements.txt     # Biblioteki Pythona
+├── render.yaml          # Konfiguracja dla Render.com
+├── .env.example         # Szablon pliku środowiskowego
+└── README.md            # Ten plik
+
+⚙️ Instalacja i uruchomienie aplikacji lokalnie:
+git clone https://github.com/twoj-login/ai-post-generator.git
 cd ai-post-generator
 
-Zainstaluj zależności:
-pip install openai gradio python-dotenv
+# Zainstaluj zależności
+pip install -r requirements.txt
 
-Utwórz plik .env i dodaj swój klucz API:
-OPENAI_API_KEY=sk-...twój_klucz_api...
+# Stwórz plik .env i wklej swój klucz OpenAI
+cp .env.example .env
+nano .env  # lub dowolny edytor
 
-▶️ Uruchomienie
-W terminalu:
+# Uruchom aplikację
 python main.py
-Aplikacja uruchomi się lokalnie i będzie dostępna pod adresem:
-http://127.0.0.1:7860
 
-🧩 Technologie
-Python – backend
-Gradio – interfejs użytkownika
-OpenAI API – GPT-4 do tekstu, DALL·E 3 do grafiki
-dotenv – bezpieczne ładowanie klucza API
+🔐 Zmienne środowiskowe:
+Ustaw zmienną środowiskową OPENAI_API_KEY w pliku .env:
+OPENAI_API_KEY=sk-...twój-klucz...
 
-© Kamil Lemański 2025 – projekt edukacyjno-prezentacyjny
+☁️ Deployment na platformie Render.com:
+1. Połącz repozytorium GitHub z Render.com
+2. Upewnij się, że w repo są pliki: main.py, requirements.txt, render.yaml
+3. W Start Command wpisz: python main.py
+4. W sekcji Environment Variables dodaj OPENAI_API_KEY
+5. Aplikacja zostanie automatycznie uruchomiona pod adresem .onrender.com.
+
+📌 Przykład użycia:
+1. Wybierz temat, styl, język i cel posta.
+2. Kliknij „Generuj post” — otrzymasz gotowy tekst.
+3. Kliknij „Wygeneruj grafikę do posta” — otrzymasz obraz od DALL·E 3.
+4. Chcesz coś poprawić? Skorzystaj z funkcji „Ulepsz post” lub „Ulepsz grafikę”.
+
+📝 Licencja:
+© 2025 Kamil Lemański. Projekt edukacyjny i demonstracyjny.
+
+🙏 Credits
+OpenAI (GPT-4, DALL·E 3)
+Gradio Team
+Render.com Hosting
