@@ -41,20 +41,26 @@ https://ai-post-generator-klemanski.onrender.com
 📂 Folder structure:
 
 ai-post-generator/
+
 ├── main.py              # Główna logika aplikacji
+
 ├── requirements.txt     # Biblioteki Pythona
+
 ├── render.yaml          # Konfiguracja dla Render.com
+
 ├── .env.example         # Szablon pliku środowiskowego
+
 └── README.md            # Ten plik
+
 
 ------------
 ⚙️ Instalacja i uruchomienie aplikacji lokalnie:
 
-1. git clone https://github.com/twoj-login/ai-post-generator.git
+1. Sklonuj repozytorium: https://github.com/twoj-login/ai-post-generator.git
 
-2. Zainstaluj zależności: pip install -r requirements.txt
+2. Zainstaluj wymagane biblioteki: pip install -r requirements.txt
 
-3. Stwórz plik .env i wklej swój klucz OpenAI: .env.example
+3. Skonfiguruj swój klucz OpenAI: cp .env.example .env
 
 4. Uruchom aplikację: python main.py
 
